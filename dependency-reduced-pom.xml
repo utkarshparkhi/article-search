@@ -19,7 +19,7 @@
               <transformers>
                 <transformer />
                 <transformer>
-                  <mainClass>com.search.SearchApplication</mainClass>
+                  <mainClass>com.search.application.SearchApplication</mainClass>
                 </transformer>
               </transformers>
             </configuration>

@@ -1,7 +1,8 @@
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/Review.java
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/SearchConfig.java
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/ReviewReturn.java
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/SearchApplication.java
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/SearchResource.java
-/ssd/Desktop/Desktop/article-search/src/main/java/com/search/SearchDAO.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/bean/Reviews.java
 /ssd/Desktop/Desktop/article-search/src/main/java/com/search/db/Collection.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/resource/SearchResource.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/bean/Review.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/DAO/SearchDAO.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/config/SearchConfig.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/bean/ReviewReturn.java
+/ssd/Desktop/Desktop/article-search/src/main/java/com/search/application/SearchApplication.java

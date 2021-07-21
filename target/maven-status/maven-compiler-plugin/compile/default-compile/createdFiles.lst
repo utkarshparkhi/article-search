@@ -1,7 +1,8 @@
-com/search/Review.class
-com/search/SearchDAO.class
-com/search/SearchConfig.class
-com/search/SearchResource.class
-com/search/SearchApplication.class
-com/search/ReviewReturn.class
+com/search/bean/Reviews.class
+com/search/config/SearchConfig.class
+com/search/application/SearchApplication.class
+com/search/resource/SearchResource.class
+com/search/bean/ReviewReturn.class
 com/search/db/Collection.class
+com/search/bean/Review.class
+com/search/DAO/SearchDAO.class
