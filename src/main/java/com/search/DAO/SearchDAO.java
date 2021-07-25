@@ -73,7 +73,13 @@ public class SearchDAO {
                 nr.setUrl("url");
             }
             if(dc.containsKey("pub_date")){
-                nr.setPub_date(dc.getDate("pub_date"));
+                try {
+                    nr.setPub_date(dc.getDate("pub_date"));
+                }
+                catch (Exception e){
+                    nr.setPub_date(new Date(0));
+                }
+
             }
             else{
                 nr.setPub_date(new Date(0));

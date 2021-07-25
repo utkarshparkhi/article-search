@@ -5,6 +5,7 @@ import org.bson.Document;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 public class Reviews {
     private String text;
@@ -44,6 +45,10 @@ public class Reviews {
 
     public void setScore() {
         double score = 0;
+        if(Objects.isNull(this.pub_date)){
+            System.out.println("date is null");
+            System.out.println(this.url);
+        }
         double pub_date_score = ((double) this.pub_date.getTime())/((double) new Date().getTime());
         double sentiment_score = this.sentiment;
         double rating_score = this.rating;
