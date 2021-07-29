@@ -1,5 +1,5 @@
-#Article Search
-###Setting up
+#Article Search#
+###Setting up###
 1. modify `./sample.yml` if needed
     ```yaml
     defaultName: Search
