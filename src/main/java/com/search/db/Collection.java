@@ -17,7 +17,7 @@ public class Collection {
     public static MongoCollection<Document> getCol() {
         try {
             Properties prop = new Properties();
-            InputStream inputStream = new FileInputStream("/ssd/Desktop/Desktop/article-search/src/config.properties");
+            InputStream inputStream = new FileInputStream("config.properties");
             prop.load(inputStream);
             String host = prop.getProperty("host");
             int port = Integer.parseInt(prop.getProperty("port"));
