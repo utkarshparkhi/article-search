@@ -1,4 +1,4 @@
-#Article Search#
+#Article Search#<br>
 ###Setting up###
 1. modify `./sample.yml` if needed
     ```yaml
